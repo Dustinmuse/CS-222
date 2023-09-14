@@ -1,0 +1,12 @@
+you can rearrange the arguments as long as they are assigned properly
+
+example: sayHello(firstName, lastName)
+         sayHello(lastName = 'Joe', firstName = 'Billy')
+
+
+y : list   # defining that y (a variable) is a list
+
+
+n0 : float, n1 : float       # defining that n0 and n1 must be a float
+
+

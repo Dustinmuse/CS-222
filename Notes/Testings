@@ -1,0 +1,40 @@
+1. Unit test
+
+unittest.TestCase # inside () of class "parent" class and makes it a test class
+
+do 1 test at a time to complete # can go bac and change what you had before to work for another test if it still passes original test too
+
+asserEqual() is a function from unittest class
+
+OK means test/tests was passed
+
+FAILED means test/tests was failed
+
+AssertionError tells you what you did and why it was wrong
+
+- what you did
+
++ what should've showed
+
+from "other file" import "method"
+
+test_  # matters and should be at the start for certain cases (most cases)
+
+pass  # class has been setup but not defined yet
+
+^ will run but if nothing is inside class it will throw an error and fail test cases
+
+when variables are in constructor it doesn't need to be defined in the methods # just use self."variable"
+
+can make a new object inside each test method or make a method that is a object that will be used for all test cases
+
+assertTrue/assertFalse
+
+python3 -m unittest     (in terminal)  # runs all tests within the whole project
+
+^ the constructor of an object doesn't have to begin with test_
+
+^ but the file needs to be named test_ at the start so it will run with the above function
+
+2. Pytest
+
