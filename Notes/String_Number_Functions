@@ -1,0 +1,37 @@
+Tests Case:
+write down/look over the specifications
+extract the requirements
+user story (a function that can do x, y, and z)
+only do 1 case at a time and write the bare minimum to pass the first test
+self.assertEqual(SumofOdd(3, 10), 24) == the sum of odds between 3 and 10 inclusive should equal 24
+mock class -- place holder used with large amounts of files
+
+.title() -- capitalizes the first letter of each word
+
+.swapcase() -- lowercase is uppercase and uppercase is lowercase
+
+.capitalize() -- capitalizes the first letter and lowercase everything else
+
+.isalnum() -- return true or false depending if they are in the alphabet or a number. if there is a special charater it will return false
+
+isalpha() -- returns turn if it is in the alphabet only. return false otherwise
+
+isdigit() -- returns turn if it is a number only. return false otherwise
+
+isdecimal() -- returns turn if it is a number and/or allows decimals only. return false otherwise
+
+.lstrip() -- used when there are a lot of spaces unneeded. It prints what was in the ' ' but deletes the spaces
+
+.replace("BSU, "Purdue") -- replace all the specific words "BSU" inside the string to "Purdue" (there is a way to only replace a specific BSU)
+
+.index("to") -- searching for the index of the substring "to" in the string (returns the index at the first letter 't')
+
+.find("to") -- similar to .index()
+
+math.isnan(50) -- returns true if 50 is not a number
+
+math.inf() -- infinity
+
+math.factorial(5) -- returns the factorial of 5
+
+math.fmod(10, 3) -- gives the remainder of 10/3. returns floating point (similar to the % function)
