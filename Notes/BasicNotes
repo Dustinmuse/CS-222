@@ -10,3 +10,14 @@ y : list   # defining that y (a variable) is a list
 n0 : float, n1 : float       # defining that n0 and n1 must be a float
 
 
+Json and XML are used to exchange data
+
+Json is newer than XML and better in most ways
+
+RSS = XML feeds
+
+OMDb API (on the internet)   -- can search of different Json files on movies
+
+[] = list
+
+{} = dictionary
