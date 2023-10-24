@@ -1,4 +1,4 @@
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 x = ['Q1', 'Q2', 'Q3', 'Q4']
 y = [10000, 12000, 11000, 8000]
