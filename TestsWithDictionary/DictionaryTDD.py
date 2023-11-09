@@ -28,4 +28,4 @@ class TestMyDictionary(unittest.TestCase):
         self.assertIsNone(result)  #the variable result shouldn't be anything (is what its testing for)
 
 if __name__ == '__main__':
-    unittest
+    unittest.main()
