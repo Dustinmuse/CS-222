@@ -1,5 +1,5 @@
 import unittest
-from primenumber import IsPrime
+from Prime_Number import IsPrime
 class TestPrime(unittest.TestCase):
     def test_two(self):
         self.assertTrue(IsPrime(2))
